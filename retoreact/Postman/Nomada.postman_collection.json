@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "deae3030-11a5-445d-879a-2cf58463a487",
+		"name": "Nomada",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get actor name",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Nomada",
+						"value": "YTA5MDEzMGMtZDdiMy00MzIwLWExOGItZWMzYzBmMmZhNDY3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/jessa/Desktop/d31a71bbda6238cc70ff179dd6ef7e25.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://whois.nomada.cloud/upload",
+					"protocol": "https",
+					"host": [
+						"whois",
+						"nomada",
+						"cloud"
+					],
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/search/person?api_key=30db1237b9167f8afaf9e065b90d16b8&query=Will Smith",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"search",
+						"person"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "30db1237b9167f8afaf9e065b90d16b8"
+						},
+						{
+							"key": "language",
+							"value": "en-US",
+							"disabled": true
+						},
+						{
+							"key": "query",
+							"value": "Will Smith"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "include_adult",
+							"value": "false",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
