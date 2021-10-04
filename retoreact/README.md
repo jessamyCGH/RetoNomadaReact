@@ -11,7 +11,7 @@
 
 ### MANUAL
 * 1.-Seleccionar o arrastrar una imagen de tu computadora con el rostro de un actor (.jpg, .png)
-* 
+
 
 ![image](https://user-images.githubusercontent.com/73509133/135778690-99d82e8a-9ca5-4f4d-99c7-b549d5a91759.png)
 
